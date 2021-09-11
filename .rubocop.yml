@@ -1,0 +1,7 @@
+AllCops:
+  DisplayCopNames: true
+  TargetRubyVersion: 2.6.3
+  NewCops: enable
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false

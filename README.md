@@ -1,2 +1,9 @@
-# hold_my_beer
-translation matcher
+# hold my beer
+
+
+#TODO
+- I18n
+- circle-ci 
+- batches
+- rbenv
+
