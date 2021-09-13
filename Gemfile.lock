@@ -7,7 +7,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    concurrent-ruby (1.1.9)
     diff-lcs (1.4.4)
+    i18n (1.8.10)
+      concurrent-ruby (~> 1.0)
     parallel (1.20.1)
     parser (3.0.2.0)
       ast (~> 2.4.1)
@@ -49,6 +52,7 @@ PLATFORMS
 
 DEPENDENCIES
   hold_my_beer!
+  i18n
   rspec
   rubocop
   rubocop-rspec
