@@ -10,6 +10,9 @@ jobs:
 
       - name: Setup Ruby and install gems
         uses: ruby/setup-ruby@v1
+      
+      - name: install gems
+        run: bundle install
 
       - name: Run tests
         run: bin/rspec
