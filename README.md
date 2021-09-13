@@ -3,6 +3,6 @@ Pipeline: [![ChristianBreitkreutz](https://circleci.com/gh/ChristianBreitkreutz/
 
 #TODO
 - I18n
-- batches
 - rbenv
-
+- rubicop in ci
+- use github actions
