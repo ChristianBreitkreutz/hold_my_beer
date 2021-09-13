@@ -14,5 +14,5 @@ jobs:
       - name: install gems
         run: bundle install
 
-      - name: Run tests
-        run: bin/rspec
+      - name: Run rspec
+        run: bundle exec rspec spec
