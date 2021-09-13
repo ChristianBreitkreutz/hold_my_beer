@@ -1,5 +1,5 @@
 # hold my beer
-Pipeline: [![ChristianBreitkreutz](https://circleci.com/gh/ChristianBreitkreutz/hold_my_beer.svg?style=svg)](https://app.circleci.com/pipelines/github/ChristianBreitkreutz) 
+![Rspec](https://github.com/ChristianBreitkreutz/hold_my_beer/actions/workflows/spec/badge.svg)
 
 #TODO
 - I18n
