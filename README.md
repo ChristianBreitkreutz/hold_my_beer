@@ -2,7 +2,7 @@
 ![Rspec](https://github.com/ChristianBreitkreutz/hold_my_beer/actions/workflows/spec.yml/badge.svg)
 
 #TODO
-- I18n
 - rbenv
+- I18n
 - rubicop in ci
 - use github actions

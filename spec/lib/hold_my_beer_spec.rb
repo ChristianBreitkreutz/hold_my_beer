@@ -11,7 +11,7 @@ RSpec.describe HoldMyBeer do
   it '.hi' do
     # I18n.load_path << Dir[File.expand_path("fixtures/config/locales") + "/*.yml"]
     # I18n.default_locale = :en # (note that `en` is already the default!)
-    pp I18n.t(:test)
+    #pp I18n.t(:test)
     expect(HoldMyBeer.new.hi).to be('Wait, hold my beer!')
   end
 end
