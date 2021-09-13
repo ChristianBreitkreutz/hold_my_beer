@@ -1,0 +1,6 @@
+en:
+  test:
+    key_with_values: Hello %{person}
+    key_with_values_fails: Hello %{person}
+    multiple_keys: "one %{first}, two %{second}, again one %{first}"
+    some_key: Hi
