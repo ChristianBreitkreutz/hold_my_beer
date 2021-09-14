@@ -1,11 +1,16 @@
-name: build-pr
+name: Manual workflow
 
-on: workflow_dispatch:
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'commiter'
+        default: 'cb'
+        required: true
 
 jobs:
-  name: WTF
-		uses: devops-infra/action-pull-request@v0.4
-		with:
-			github_token: ${{ secrets.GITHUB_TOKEN }}
-			source_branch: main
-			target_branch: stuff
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Send greeting
+      run: echo "Hello ${{ github.event.inputs.name }}"
