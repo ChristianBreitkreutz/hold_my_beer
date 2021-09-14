@@ -1,6 +1,11 @@
-- name: WTF
-      uses: devops-infra/action-pull-request@v0.4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        source_branch: main
-        target_branch: stuff
+name: build-pr
+
+on: workflow_dispatch:
+
+jobs:
+  name: WTF
+		uses: devops-infra/action-pull-request@v0.4
+		with:
+			github_token: ${{ secrets.GITHUB_TOKEN }}
+			source_branch: main
+			target_branch: stuff
