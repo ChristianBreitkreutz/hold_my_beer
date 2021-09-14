@@ -2,7 +2,8 @@
 ![Rspec](https://github.com/ChristianBreitkreutz/hold_my_beer/actions/workflows/spec.yml/badge.svg)
 
 #TODO
-- rbenv
+
+- autoload
 - I18n
 - rubicop in ci
 - use github actions
