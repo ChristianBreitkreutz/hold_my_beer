@@ -14,3 +14,10 @@ jobs:
     steps:
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
+    - name: Run the Action
+      uses: devops-infra/action-pull-request@v0.4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        source_branch: main
+        target_branch: release/99_99_99_${{github.event.inputs.name}}
+        title: Release/99_99_99_${{github.event.inputs.name}}
