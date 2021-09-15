@@ -7,3 +7,4 @@
 - I18n
 - rubicop in ci
 - use github actions
+- add something
