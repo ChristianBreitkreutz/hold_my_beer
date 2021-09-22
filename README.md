@@ -6,4 +6,4 @@
 - autoload
 - I18n
 - rubicop in ci
-- use github actions V
+- use github actions VI
