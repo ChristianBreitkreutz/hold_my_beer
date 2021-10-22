@@ -16,3 +16,5 @@
 - step 4
 - step 5
 - step 6.4
+- step 7
+- step 8
