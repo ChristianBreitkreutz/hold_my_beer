@@ -22,3 +22,5 @@
 - setp 10.5
 - step 11.8
 - step 12.3
+- step 13
+- step 14
