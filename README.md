@@ -6,4 +6,11 @@
 - autoload
 - I18n
 - rubicop in ci
-- use github actions IIIII
+- use github actions VII
+
+
+# Dummy corner
+- step1
+- step 2
+- feature B(fix)
+- feature C (fix)
