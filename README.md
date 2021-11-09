@@ -12,5 +12,5 @@
 # Dummy corner
 - step1
 - step 2
-- feature A
+- feature A.2
 
