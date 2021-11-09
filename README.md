@@ -13,4 +13,4 @@
 - step1
 - step 2
 - feature B(fix)
-- feature C
+- feature C (fix)
